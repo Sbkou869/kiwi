@@ -1,1 +1,11 @@
-
+aoi.js==4.6.0
+canvacord==5.2.0
+canvas==2.8.0
+dbd.express==1.0.1
+discord.js-pagination==1.0.3
+dotenv==10.0.0
+events==3.2.0
+express==4.17.1
+pretty-ms==7.0.1
+strftime==0.10.0
+ytdl-core==4.8.3
