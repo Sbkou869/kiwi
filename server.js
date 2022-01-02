@@ -3,7 +3,7 @@ const canvacord = require("canvacord")
 const bot = new Aoijs.Bot({
 token: process.env.TOKEN,
 prefix: ["$getServerVar[prefix]","&&","$getGlobalUserVar[UserPrefix]", "<@776118034431213599>", "<@!776118034431213599>"],
-disabledFunctions: ["$clientToken", "$botLeave", "$killClient"]
+
 })
 
 const express = require('express');
