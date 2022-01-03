@@ -6,17 +6,6 @@ prefix: ["$getServerVar[prefix]","&&","$getGlobalUserVar[UserPrefix]", "<@776118
 
 })
 
-const express = require('express');
-const server = express();
-server.all('/', (req, res) => {
-  res.send(`ок`)
-})
-function keepAlive() {
-  server.listen(3000, () => { console.log("Server is Ready!!" + Date.now()) });
-}
-module.exports = keepAlive;
-
-
 bot.onMessage()
 
 bot.loadCommands(`./commands/`)
