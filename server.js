@@ -538,21 +538,3 @@ code:`$title[Message deleted] $description[Message was deleted in <#$channelUsed
 $color[$getVar[color]]`
 })
 bot.onMessageDelete()
-
-bot.botJoinCommand({
-    channel: "796502167338090496",
-    code: `$description[
-I was added to $serverName
-Current number of servers - $serverCount]
-$color[$getVar[color]]`
-})
-bot.onGuildJoin()
-
-bot.botLeaveCommand({
-    channel: "796502167338090496",
-    code: `$description[
-I was deleted to $serverName
-Current number of servers - $serverCount]
-$color[$getVar[color]]`
-})
-bot.onGuildLeave()
